@@ -233,6 +233,14 @@
       /* Set opacity to 1 to make the background fully opaque */
   }
 
+#buttonid{
+    background-color: #131212f1;
+    border-radius: 15px;
+    padding: 12px;
+    color: hsl(0, 0%, 99%)
+    
+}
+
   .content-card {
       display: flex;
       flex-direction: column;
@@ -607,11 +615,13 @@
       opacity: 1;
   }
   #next{
-    margin-top:50% ;
+    
+    padding: 0px;
     text-align: center;
-    color:rgb(39, 51, 44);
+    color:white(39, 51, 44);
     font-size: 30px;
     cursor: pointer;
+    background: black;
   }
 </style>
 <body>
@@ -654,8 +664,9 @@
 
                 <body>
                     <!-- Google Sign-In button -->
-                    <div id="next" >Next</div>
-            </section>
+                       <button type="button" id="buttonid"> <div id="next" >Get Started</div>
+</button>
+                </section>
 
             <!--=============== CONTENT SECTION ===============-->
 
